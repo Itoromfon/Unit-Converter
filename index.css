@@ -1,0 +1,549 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #1F2937;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #6943FF;
+}
+
+#head-unit {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding: 33px 51px 0px 51px;
+}
+
+#input-unit {
+    background: #6943FF;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+#btn-unit {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 9px 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
+
+#btn-unit:hover {
+    background: #6943FF;
+    color: #FFFFFF;
+}
+
+#length-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 25px 0px 25px;
+    background: #273549;
+}
+
+.length-head {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 15px;
+    color: #CCC1FF;
+    padding-top: 30px;
+}
+
+#length-pgh {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 0;
+    padding-bottom: 19px;
+}
+
+#volume-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 25px 24px 25px;
+    background: #273549;
+}
+
+.volume-head {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 15px;
+    color: #CCC1FF;
+    padding-top: 30px;
+}
+
+#volume-pgh {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 0;
+    padding-bottom: 19px;
+}
+
+#mass-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px 50px 25px;
+    background: #273549;
+}
+
+.mass-head {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 15px;
+    color: #CCC1FF;
+    padding-top: 30px;
+}
+
+#mass-pgh {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 0;
+    padding-bottom: 19px;
+}
+
+@media screen and (max-width: 480px) {
+    #head-unit {
+        font-size: 22px;
+        padding: 40px 10px 0px 10px;
+    }
+
+    #input-unit {
+        width: 107px;
+        height: 72px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 35px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #btn-unit {
+        padding: 7px 22px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    #btn-unit:hover {
+        background: #6943FF;
+        color: #FFFFFF;
+    }
+
+    #length-unit {
+        margin: 30px 21px 0px 21px;
+    }
+
+    .length-head {
+        font-size: 18px;
+        line-height: 15px;
+        padding-top: 18px;
+    }
+
+    #length-pgh {
+        font-size: 16px;
+        line-height: 12px;
+        padding-bottom: 18px;
+    }
+
+    #volume-unit {
+        margin: 22px 21px 22px 21px;
+    }
+
+    .volume-head {
+        font-size: 18px;
+        line-height: 15px;
+        padding-top: 18px;
+    }
+
+    #volume-pgh {
+        font-size: 16px;
+        line-height: 12px;
+        padding-bottom: 18px;
+    }
+
+    #mass-unit {
+        margin: 0 21px 50px 21px;
+    }
+
+    .mass-head {
+        font-size: 18px;
+        line-height: 15px;
+        padding-top: 18px;
+    }
+
+    #mass-pgh {
+        font-size: 16px;
+        line-height: 12px;
+        padding-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 481px) {
+    #head-unit {
+        font-size: 24px;
+        padding: 40px 10px 0px 10px;
+    }
+
+    #input-unit {
+        width: 110px;
+        height: 75px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 36px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #btn-unit {
+        padding: 8px 23px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    #btn-unit:hover {
+        background: #6943FF;
+        color: #FFFFFF;
+    }
+
+    #length-unit {
+        margin: 30px 21px 0px 21px;
+    }
+
+    .length-head {
+        font-size: 19px;
+        line-height: 16px;
+        padding-top: 18px;
+    }
+
+    #length-pgh {
+        font-size: 17px;
+        line-height: 12px;
+        padding-bottom: 18px;
+    }
+
+    #volume-unit {
+        margin: 22px 21px 22px 21px;
+    }
+
+    .volume-head {
+        font-size: 19px;
+        line-height: 16px;
+        padding-top: 18px;
+    }
+
+    #volume-pgh {
+        font-size: 17px;
+        line-height: 12px;
+        padding-bottom: 18px;
+    }
+
+    #mass-unit {
+        margin: 0 21px 50px 21px;
+    }
+
+    .mass-head {
+        font-size: 19px;
+        line-height: 16px;
+        padding-top: 18px;
+    }
+
+    #mass-pgh {
+        font-size: 16px;
+        line-height: 12px;
+        padding-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    #head-unit {
+        font-size: 26px;
+        padding: 40px 10px 0px 10px;
+    }
+
+    #input-unit {
+        width: 114px;
+        height: 79px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 37px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #btn-unit {
+        padding: 10px 25px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    #btn-unit:hover {
+        background: #6943FF;
+        color: #FFFFFF;
+    }
+
+    #length-unit {
+        margin: 30px 21px 0px 21px;
+    }
+
+    .length-head {
+        font-size: 19px;
+        line-height: 17px;
+        padding-top: 19px;
+    }
+
+    #length-pgh {
+        font-size: 17px;
+        line-height: 13px;
+        padding-bottom: 18px;
+    }
+
+    #volume-unit {
+        margin: 22px 21px 22px 21px;
+    }
+
+    .volume-head {
+        font-size: 19px;
+        line-height: 17px;
+        padding-top: 19px;
+    }
+
+    #volume-pgh {
+        font-size: 17px;
+        line-height: 13px;
+        padding-bottom: 18px;
+    }
+
+    #mass-unit {
+        margin: 0 21px 50px 21px;
+    }
+
+    .mass-head {
+        font-size: 19px;
+        line-height: 17px;
+        padding-top: 19px;
+    }
+
+    #mass-pgh {
+        font-size: 17px;
+        line-height: 13px;
+        padding-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+    #head-unit {
+        font-size: 30px;
+        padding: 40px 10px 0px 10px;
+    }
+
+    #input-unit {
+        width: 120px;
+        height: 84px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 39px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #btn-unit {
+        padding: 10px 25px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    #btn-unit:hover {
+        background: #6943FF;
+        color: #FFFFFF;
+    }
+
+    #length-unit {
+        margin: 30px 21px 0px 21px;
+    }
+
+    .length-head {
+        font-size: 20px;
+        line-height: 17px;
+        padding-top: 19px;
+    }
+
+    #length-pgh {
+        font-size: 18px;
+        line-height: 13px;
+        padding-bottom: 18px;
+    }
+
+    #volume-unit {
+        margin: 22px 21px 22px 21px;
+    }
+
+    .volume-head {
+        font-size: 20px;
+        line-height: 17px;
+        padding-top: 19px;
+    }
+
+    #volume-pgh {
+        font-size: 18px;
+        line-height: 13px;
+        padding-bottom: 18px;
+    }
+
+    #mass-unit {
+        margin: 0 21px 50px 21px;
+    }
+
+    .mass-head {
+        font-size: 20px;
+        line-height: 17px;
+        padding-top: 19px;
+    }
+
+    #mass-pgh {
+        font-size: 18px;
+        line-height: 13px;
+        padding-bottom: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
