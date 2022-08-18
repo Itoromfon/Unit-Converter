@@ -13,7 +13,6 @@ function renderInput() {
     const volume = 0.264
     const mass = 2.204
     const inputNumbers = inputUnit.value 
-    inputUnit.value = ""
     lengthPgh.textContent = ""
     volumePgh.textContent = ""
     massPgh.textContent = ""
