@@ -162,7 +162,7 @@ body {
     }
 
     #length-unit {
-        margin: 30px 19px 0px 19px;
+        margin: 30px 5px 0px 5px;
     }
 
     .length-head {
@@ -172,13 +172,13 @@ body {
     }
 
     #length-pgh {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 12px;
-        padding: 0 5px 18px 5px;
+        padding: 0 0 18px 0;
     }
 
     #volume-unit {
-        margin: 22px 19px 22px 19px;
+        margin: 22px 5px 22px 5px;
     }
 
     .volume-head {
@@ -188,13 +188,13 @@ body {
     }
 
     #volume-pgh {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 12px;
         padding: 0 5px 18px 5px;
     }
 
     #mass-unit {
-        margin: 0 19px 50px 19px;
+        margin: 0 5px 50px 5px;
     }
 
     .mass-head {
@@ -204,7 +204,7 @@ body {
     }
 
     #mass-pgh {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 12px;
         padding-bottom: 0 5px 18px 5px;
     }
@@ -241,7 +241,7 @@ body {
     }
 
     #length-unit {
-        margin: 30px 21px 0px 21px;
+        margin: 30px 5px 0px 5px;
     }
 
     .length-head {
@@ -251,13 +251,13 @@ body {
     }
 
     #length-pgh {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 12px;
         padding-bottom: 18px;
     }
 
     #volume-unit {
-        margin: 22px 21px 22px 21px;
+        margin: 22px 5px 22px 5px;
     }
 
     .volume-head {
@@ -267,13 +267,13 @@ body {
     }
 
     #volume-pgh {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 12px;
         padding-bottom: 18px;
     }
 
     #mass-unit {
-        margin: 0 21px 50px 21px;
+        margin: 0 5px 50px 5px;
     }
 
     .mass-head {
@@ -320,7 +320,7 @@ body {
     }
 
     #length-unit {
-        margin: 30px 21px 0px 21px;
+        margin: 30px 10px 0px 10px;
     }
 
     .length-head {
@@ -336,7 +336,7 @@ body {
     }
 
     #volume-unit {
-        margin: 22px 21px 22px 21px;
+        margin: 22px 10px 22px 10px;
     }
 
     .volume-head {
@@ -352,7 +352,7 @@ body {
     }
 
     #mass-unit {
-        margin: 0 21px 50px 21px;
+        margin: 0 10px 50px 10px;
     }
 
     .mass-head {
@@ -399,7 +399,7 @@ body {
     }
 
     #length-unit {
-        margin: 30px 21px 0px 21px;
+        margin: 30px 14px 0px 14px;
     }
 
     .length-head {
@@ -415,7 +415,7 @@ body {
     }
 
     #volume-unit {
-        margin: 22px 21px 22px 21px;
+        margin: 22px 14px 22px 14px;
     }
 
     .volume-head {
@@ -431,7 +431,7 @@ body {
     }
 
     #mass-unit {
-        margin: 0 21px 50px 21px;
+        margin: 0 14px 50px 14px;
     }
 
     .mass-head {
